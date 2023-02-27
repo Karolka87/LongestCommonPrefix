@@ -3,12 +3,12 @@ import java.util.Arrays;
 
 public class LongestCommonPrefix {
     public static void main(String[] args){
-        String[] lista1 = new String[5];
+        String[] lista1 = new String[3];
         lista1[0] = "cypr";
         lista1[1] = "cygaro";
         lista1[2] = "cyniczny";
-        lista1[3] = "pomidor";
-        lista1[4] = "gruszka";
+        //lista1[3] = "pomidor";
+        //lista1[4] = "gruszka";
 
         Arrays.sort(lista1);
         System.out.println(Arrays.toString(lista1));
